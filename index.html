@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awsome link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <title>Chats | Kakao Clone</title>
+  </head>
+  <body>
+    <!--STATUS SECTION-->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">09:40</span>
+      </div>
+      <div class="status-bar__column">
+        <!--Font Awsome Icon Lists-->
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volumn-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <!--HEADER SECTION-->
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <!--CHAT LIST SECTION-->
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chat__column">
+              <img
+                src="images/user1.jpg"
+                alt="userprofile"
+                class="chat__avatar g-avatar"
+              />
+
+              <div class="chat__content">
+                <span class="chat__username">카카오T</span>
+                <span class="chat__preview"
+                  >자기야~대리를 탔더니 영화표를 줬어! 가정의 달 특별 이벤트
+                  카카오 대리로 집에 가면...</span
+                >
+              </div>
+            </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">16 MAY</span>
+              <span class="chat__notification">2</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <!--NATIGATION SECTION-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list" class="nav__list-item">
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list" class="nav__list-item">
+          <a href="index.html" class="nav__list-link"
+            ><i class="fas fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list" class="nav__list-item">
+          <a href="find.html" class="nav__list-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list" class="nav__list-item">
+          <a href="more.html" class="nav__list-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
